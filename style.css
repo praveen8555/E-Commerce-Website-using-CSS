@@ -1,0 +1,175 @@
+/* header{
+    
+    background-color:rgb(4, 107, 242);
+    height:56px;
+    color:white;
+}
+nav{
+    display: flex;
+}
+nav ul li{
+    list-style: none; 
+    padding: 0 23px;
+}
+nav ul li a:hover{
+font-weight: bold;
+color: rgb(41, 95, 230);
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+}
+li{
+    display:flex;
+    padding:0 23px;
+    /* justify-content:flex-start; 
+    align-items: center;
+ul li a{
+    color:white;
+    text-decoration:none;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+:root{
+    --main-bg-color: #2874f0;
+  }
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    display:flex;
+    
+}
+header{
+    background: var(--main-bg-color); 
+    font-family: 'Lato', sans-serif;
+    width:auto;
+    flex-wrap: nowrap;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none; 
+    padding: 0 23px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{ 
+    font-weight: bolder;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 88px;
+    padding: 0 25px;
+}
+.search{
+    display: flex;
+    margin: 0px 8px;
+    padding: 19px 10px;
+    width: 30vw;
+    flex-wrap: nowrap; 
+}
+.text{
+    border :2px solid black;
+    border-radius: 4px;
+    font-family: 'Lato', sans-serif;
+    padding:0 10px;
+}
+input{
+    width:300px;
+}
+.btn{
+    border-radius:3px;
+    margin: 1px 13px;
+    height: 18px;
+    color:white;
+    background-color: var(--main-bg-color);
+    border-color: rgb(16, 15, 15);
+    padding: 0px 2px 1px 1px;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background-color:azure;
+    flex-wrap:nowrap;
+}
+.slider{
+    /* height: 277px;
+    padding: 17px 10px; */
+    display:flex;
+    margin:12px 12px; 
+    width: 80vw; 
+    flex-wrap: nowrap;
+    /* width: 681px;
+    margin: inherit;*/
+    /* padding: 10px;  */
+}
+.card{
+    max-width: 1000vw;
+    margin:0 33px;
+    padding: 10px 0;
+
+}
+.card h2{
+    font-family: 'Lato', sans-serif;
+    margin: 12px 0;
+}
+main{
+        min-height: calc(100vh - 58px - 12vh);
+}
+.text-center{
+    text-align:center;
+    width: 12pxvw;
+    color: green;
+}
+.cart{
+    display:flex;
+    overflow: hidden;
+    /* margin:0 100px; */
+    /* flex-direction:row; */
+   /* justify-content :center; */
+}
+   .cart img:hover,
+    img:focus{
+      width:160px;
+      height:190px;
+    }
+
+
+.card-item{
+  display:inline-flex;
+  justify-content: center;
+  /* text-align:center; */
+  flex-direction:column;
+  margin:0 15px;
+}
+footer{
+    display:flex;
+    background-color: var(--main-bg-color);
+    height: 12vh;
+    justify-content:center;
+    align-items: center;
+    color:white;   
+}
+/* My project includes a header, a main section, and a footer. The header contains a navigation bar, 
+a logo, and a search bar. The main section includes a slider with an image, and a shopping cart 
+with three items displayed in a row. The footer contains some basic information about the website.
+The code also includes some CSS styles to design the webpage, such as font styles, colors, and spacing.
+web page with a header, a main section, and two sections for products. The header contains a navigation menu
+with links to "Home," "About," and "Contact." It also has a search bar. The main section contains two "cart" sections,
+each with a heading and several product cards. Each card has an image and three lines of text that describe the product
+ and its discount. The web page also links to a CSS file called "style.css," content of that file is provided in style.css file */
